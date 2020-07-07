@@ -1,0 +1,50 @@
+#customers-testimonial{
+  padding: 40px 0; 
+}
+
+.testimonial img {
+  max-width: 159px;
+  margin: 0 auto 0 auto;
+  border: 2px solid white;
+  padding: 5px;
+  margin-bottom: 13px;
+}
+
+.testimonial blockquote{
+  border: 0;
+  font-family: tahoma;
+  font-size: italic;
+  color: white;
+  padding: 5px 150px;
+  position: relative;
+}
+
+.testimonial blockquote:before,
+.testimonial blockquote:after{
+  font-size: 80px;
+  font-size: normal;
+  line-height: 1;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+
+.testimonial blockquote::before{
+  content: "\201C";
+  top: 0;
+  left: 100px;
+}
+
+.testimonial blockquote::after{
+  content: "\201D";
+  bottom: : 0;
+  right: 100px;
+}
+
+.testimonial-author p strong{
+  display: block;
+}
+
+h3{
+  text-transform: uppercase;
+}

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body {
+	/*background: #707070;*/
+	margin: 0;
+	font-family: 'Playfair Display', serif;
+}
+
+figure {
+	background: url('images/marble3.jpg') !important;
+	display: block;
+	margin: 1.5em;
+	padding: .7em;
+
+}
+
+figcaption {
+		text-align: center;
+		margin-bottom: 1em; 
+		font-weight: bold;
+		font-family: 'Montserrat';
+		font-size: 1.5em;
+		/*color: #707070;*/
+		/*font-style: italic;
+		padding: .7em;
+		margin: 1.5em;*/
+	}
+blockquote {
+		text-align: center;
+		margin-bottom: 1em; 
+		font-weight: bold;
+		font-family: 'Montserrat';
+		font-size: 1.5em;
+		color: black;
+		padding: .7em;
+		margin: 1.5em;
+	}
+
+.glider-contain {
+	width: 90% !important;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+}
+
+.glider-next {
+	right: -50px;
+	top: 50%;
+}
+
+.glider-prev {
+	left: -50px;
+	top: 50%;
+}
+
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+}
+
